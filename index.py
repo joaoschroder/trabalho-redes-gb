@@ -44,7 +44,7 @@ class Transmitter(Thread):
         while True:
             # Sensing
             print(
-                f"T({self.id}) - Sensing... (has_collision = {has_collision} / medium = {medium})"
+                f"T({self.id}) - Sensing..."
             )
             sleep(self.sensing)
 
